@@ -3,6 +3,12 @@ public class Employee{
 
     String nom;
     String prenom;
+    int age;
+
+    public int getAge(){
+        return age;
+    }
+    
     public String getNom() {
         return nom;
     }
